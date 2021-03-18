@@ -1,0 +1,107 @@
+{
+  "id": "1093331",
+  "name": "vikeBaby",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "845793",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "3216549",
+      "name": "赞",
+      "font_class": "zan1",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "8792420",
+      "name": "赞",
+      "font_class": "cai",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "166629",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "589511",
+      "name": "角色管理",
+      "font_class": "jueseguanli",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "1275452",
+      "name": "部门",
+      "font_class": "bumen",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "1766491",
+      "name": "符号-轮播图",
+      "font_class": "lunbotu",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "1901645",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2597372",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "3248659",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5204808",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "6263312",
+      "name": "融合频道",
+      "font_class": "ronghepindao",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "6528219",
+      "name": "直播",
+      "font_class": "zhibo",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "1463621",
+      "name": "课程",
+      "font_class": "course",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}

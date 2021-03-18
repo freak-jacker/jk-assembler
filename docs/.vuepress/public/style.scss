@@ -1,0 +1,38 @@
+.container ::v-deep {
+  .el-card {
+    margin: 12px 0;
+  }
+  .el-form {
+    font-size: 12px;
+  }
+  .el-button {
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .el-button {
+    padding: 7px 15px;
+  }
+  .el-input--suffix .el-input__inner {
+    padding-right: 30px;
+  }
+  .el-input__inner {
+    height: 28px;
+    line-height: 28px;
+  }
+  .el-table td,
+  .el-table th {
+    padding: 6px 0;
+  }
+  .el-table {
+    font-size: 12px;
+  }
+  .el-table__body,
+  .el-table__footer,
+  .el-table__header {
+    table-layout: fixed;
+    border-collapse: separate;
+  }
+  .el-table__expanded-cell[class*='cell'] {
+    padding: 20px 50px;
+  }
+}
