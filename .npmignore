@@ -1,5 +1,7 @@
 /dist
-/example
+/docs
+/examples
 /packages
 /node_modules
 /lib
+/mock

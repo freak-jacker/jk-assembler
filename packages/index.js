@@ -68,7 +68,25 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export { permission, comparePermission };
-
+export {
+  JkAssembler,
+  JkAssemblerFilter,
+  JkAssemblerTable,
+  JkAssemblerForm,
+  JkAssemblerFormPanel,
+  JkAssemblerPagination,
+  JkColumnImages,
+  JkColumnStatus,
+  JkColumnSort,
+  JkFormSelect,
+  JkFormCheckbox,
+  JkFormUploadImage,
+  JkFormUploadImageList,
+  JkFormUploadVideo,
+  JkBannerCard,
+  JkBannerCardList,
+  JkTinymce
+};
 export default {
   install,
   JkAssembler,

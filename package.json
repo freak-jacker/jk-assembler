@@ -1,7 +1,7 @@
 {
-  "name": "jk-assembler",
+  "name": "jk-assembler2",
   "description": "A Vue.js element-ui assembler and components",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "daqiang@mac <daqiang5252@163.com>",
   "private": false,
   "license": "MIT",
@@ -15,6 +15,7 @@
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name jk-assembler --dest lib packages/index.js",
+    "report": "npm run lib && npm pack",
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"

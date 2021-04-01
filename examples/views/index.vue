@@ -24,27 +24,29 @@ function baseConfig(Vue) {
       default: {
         name: '1',
         sort: 'name,desc'
+      },
+      handle: async query => {
+        console.log('query: ', query);
+        await this.$sleep();
+        return new Promise(resolve => {
+          const data = [];
+          for (let i = 0; i < 10; i++) {
+            data.push({
+              id: i,
+              name: '名称' + i,
+              title: '标题',
+              mobile: i * 1000 * 23 - 188 * i * 26,
+              status: i % 3 === 0
+            });
+          }
+          resolve({
+            data: data,
+            pagination: {
+              total: 100
+            }
+          });
+        });
       }
-      // handle: async query => {
-      //   console.log('query: ', query);
-      //   await this.$sleep();
-      //   return new Promise(resolve => {
-      //     const data = [];
-      //     for (let i = 0; i < 10; i++) {
-      //       data.push({
-      //         id: i,
-      //         name: '名称' + i,
-      //         title: '标题',
-      //         mobile: i * 1000 * 23 - 188 * i * 26,
-      //         status: i % 3 === 0
-      //       });
-      //     }
-      //     resolve({
-      //       data: data,
-      //       total: 100
-      //     });
-      //   });
-      // }
     },
     filter: {
       columns: [
